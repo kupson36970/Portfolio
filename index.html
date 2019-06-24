@@ -7,7 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext"
     rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="style.css">
+
+  <script>
+    $(document).ready(function () {
+      $("#check").click(function () {
+        $('html, body').animate({
+          scrollTop: $(".features").offset().top
+        }, 700);
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -16,7 +27,7 @@
       <p>witaj!</p>
       <h1>jestem Jakub Kamiński</h1>
       <h2>web developer - freelancer</h2>
-      <button>Zobacz moje portfolio</button>
+      <button id="check">Zobacz moje portfolio</button>
     </div>
     <img src="images/ja.png" alt="Zdjęcie jakub kamiński">
   </header>
@@ -24,71 +35,77 @@
     <h1>tworzę bardzo dobre strony internetowe</h1>
     <div class="feature">
       <img src="images/services1.png" alt="loga html,js,css">
-      <h2>nowoczesne i zgodne z aktualnymi standardami</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit, sed diam nonummy nibh
-        euismod tincidunt ut laoreet dolore
-        magna aliquam erat volutpat.</p>
+      <h2>Nowoczesne i zgodne z aktualnymi standardami</h2>
+      <p>Codziennie sukcesywnie poznaję nowe technologie lub zgłębiam wiedzę o tych, których dotychczas używam.</p>
     </div>
     <div class="feature">
       <img src="images/services2.png" alt="loga lupy i google">
       <h2>Zoptymalizowane pod kątem wyszukiwarek internetowych</h2>
-      <p>Ut wisi enim ad minim veniam, quis nostrud
-        exerci tation ullamcorper suscipit lobortis nisl
-        ut aliquip ex ea commodo consequat</p>
+      <p>Podczas tworzenia stron zwracam uwagę na semantykę HTMl. Chciałbym w najbliższej przyszłości dowiedzieć się jak
+        najwięcej o SEO. </p>
     </div>
     <div class="feature">
       <img src="images/services3.png" alt="loga pc, smartfona i tabletu">
       <h2>Swietnie wyglądajace na urządzeniach mobilnych</h2>
-      <p>Duis autem vel eum iriure dolor in hendrerit in
-        vulputate velit esse molestie consequat, vel
-        illum dolore eu feugiat nulla facilisis at vero</p>
+      <p>Ponad połowa społeczeństwa przegląda internet na smarfonie. Skutkuje to zmianą koncepcji tworzenia stron na
+        tzw. mobile first, którą staram się stosowac przy tworzeniu projektów</p>
     </div>
   </section>
   <section class="portfolio">
     <h1>Moje rojekty</h1>
     <div class="project clearfix">
       <div class="web">
-        <img src="images/portfolio1.jpg" alt="portfolio interia">
+        <a href="https://jakubk3697.github.io/Project-Sass/" target="_blank"><img src="images/portfolio1.jpg"
+            alt="animacja ping-pong"></a>
       </div>
       <div class="about">
-        <h2>Nazwa projektu</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quidem veniam quo distinctio illum,
-          pariatur laborum nesciunt iusto eum debitis rem dolorum ipsum porro maiores? Corporis voluptate numquam
-          provident placeat quae non assumenda debitis veniam!</p>
+        <h2>Ping-Pong - SASS</h2>
+        <p>Mój pierwszy projekt, w którym wykorzystałem preprocesor SASS. Znajdują się w nim animacja gry w ping-ponga
+          wykonane przy użyciu keyframes. </p>
       </div>
     </div>
     <div class="project clearfix">
       <div class="web">
-        <img src="images/portfolio2.jpg" alt="portfolio natemat">
+        <a href="https://jakubk3697.github.io/Gallows-game/" target="_blank"><img src="images/portfolio2.jpg"
+            alt="gra wisielec"></a>
       </div>
       <div class="about">
-        <h2>Nazwa projektu</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quidem veniam quo distinctio illum,
-          pariatur laborum nesciunt iusto eum debitis rem dolorum ipsum porro maiores? Corporis voluptate numquam
-          provident placeat quae non assumenda debitis veniam!</p>
+        <h2>Gallows-game</h2>
+        <p>Popularna gra w wisielca, stworzona podczas mojej nauki języka JavaScript. Znajduje się w niej statyczna baza
+          słów, które musimy odgadnąć, w innym przypadku następuje koniec gry</p>
       </div>
     </div>
     <div class="project clearfix">
       <div class="web">
-        <img src="images/portfolio3.jpg" alt="portfolio allegro">
+        <a href="https://jakubk3697.github.io/To-Do-List-v1/" target="_blank"><img src="images/portfolio3.jpg"
+            alt="aplikacja to do list w JS"></a>
       </div>
       <div class="about">
-        <h2>Nazwa projektu</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quidem veniam quo distinctio illum,
-          pariatur laborum nesciunt iusto eum debitis rem dolorum ipsum porro maiores? Corporis voluptate numquam
-          provident placeat quae non assumenda debitis veniam!</p>
+        <h2>TO-DO LIST wersja JavaScript</h2>
+        <p>Popularna apliakcja To-do List, którą napisałem w czystym JavaScript.</p>
       </div>
     </div>
     <div class="project clearfix">
       <div class="web">
-        <img src="images/portfolio4.jpg" alt="portfolio onet">
+        <a href="https://jakubk3697.github.io/React-To-Do-List/" target="_blank"><img src="images/portfolio4.jpg"
+            alt="portfolio onet"></a>
       </div>
       <div class="about">
-        <h2>Nazwa projektu</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quidem veniam quo distinctio illum,
-          pariatur laborum nesciunt iusto eum debitis rem dolorum ipsum porro maiores? Corporis voluptate numquam
-          provident placeat quae non assumenda debitis veniam!</p>
+        <h2>React-To-Do-List</h2>
+        <p>Aplikacja To-Do List stworzona w oparciu o ReactJS. W projekcie zastosowano kilka prostych komponentów. Do
+          każdego z nich utworzono plik ze stylami</p>
+      </div>
+    </div>
+    <div class="project clearfix">
+      <div class="web">
+        <img src="images/portfolio5.jpg" alt="animacja ping-pong">
+      </div>
+      <div class="about">
+        <h2>Portfolio 2.0 - W BUDOWIE!</h2>
+        <p>Zdaję sobie sprawę, że obecne portfolio pozostawia wiele do życzenia. W moim mniemaniu portfolio jest
+          wizytówką i jednym z ważniejszych projektów developera. Początkowo chciałem ulepszyć obecne ale doszedłem do
+          wniosku, że chciałbym stworzyć naprawdę efektowne portfolio. Mam kilka koncepcji. Zamierzam usystematyzować
+          wiedzę i stworzyć coś imponującego!</p>
       </div>
     </div>
   </section>
@@ -111,38 +128,29 @@
       <p>Motocykle</p>
     </div>
     <div class="item">
-      <p>Programowanie oraz nowinki technologiczne</p>
+      <p>Programowanie</p>
     </div>
   </section>
   <section class="contact">
     <h1>Skontaktuj się ze mną</h1>
-    <div class="wrap clearfix">
-      <form>
-        <input type="text"  placeholder="Twoje imię">
-        <input type="text" placeholder="Email">
-        <textarea placeholder="Twoja wiadomość"></textarea>
-        <button>Wyślij wiadomość</button>
-      </form>
-      <div class="socials">
-        <div class="social clearfix">
-          <img src="images/contact1.png"><span>kuba@onet.pl</span>
-        </div>
-        <div class="social clearfix">
-          <img src="images/contact2.png"><span>513284563</span>
-        </div>
-        <div class="social clearfix">
-          <a href="#"><img src="images/contact3.png"><span>kuba facebook</span></a>
-        </div>
-        <div class="social clearfix">
-          <a href="#"><img src="images/contact4.png"><span>kuba twitter</span></a>
-        </div>
-        <div class="social clearfix">
-          <a href="#"><img src="images/contact5.png"><span>Kuba LinkedIn</span></a>
-        </div>
+    <div class="socials">
+      <div class="social">
+        <a href="https://www.google.com/gmail/"><img src="images/contact1.png"><span>jakubk3697@gmail.com</span></a>
+      </div>
+      <div class="social">
+        <img src="images/contact2.png"><span>784890292</span>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/kuba.kaminski.946?ref=bookmarks"><img src="images/contact3.png"><span>Mój
+            facebook</span></a>
+      </div>
+      <div class="social">
+        <a href="#"><img src="images/contact5.png"><span>Mój LinkedIn</span></a>
       </div>
     </div>
   </section>
   <footer>&copy; Jakub Kamiński</footer>
+
 </body>
 
 </html>

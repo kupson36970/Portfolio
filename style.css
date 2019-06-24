@@ -10,6 +10,10 @@ font-family: 'Saira Semi Condensed', sans-serif;
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -71,9 +75,12 @@ header button {
 }
 
 @media (orientation:portrait) and (min-width:360px) {
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 24px;
   }
+
   header button {
     line-height: 40px;
     font-size: 16px;
@@ -82,9 +89,12 @@ header button {
 }
 
 @media (orientation:portrait) and (min-width:411px) {
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 26px;
   }
+
   header button {
     line-height: 50px;
     font-size: 20px;
@@ -96,9 +106,12 @@ header button {
   header p {
     font-size: 84px;
   }
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 35px;
   }
+
   header button {
     line-height: 60px;
     font-size: 26px;
@@ -112,11 +125,13 @@ header button {
     bottom: 0;
     right: -5%;
   }
+
   header div.welcome {
     top: 12%;
     left: 5%;
     right: 45%;
   }
+
   header button {
     margin-top: 40px;
   }
@@ -126,9 +141,11 @@ header button {
   header h1 {
     font-size: 24px;
   }
+
   header h2 {
     font-size: 24px;
   }
+
   header button {
     font-size: 16px;
     line-height: 40px;
@@ -139,20 +156,26 @@ header button {
   header div.welcome {
     left: 2%;
   }
+
   header p {
     font-size: 56px;
   }
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 34px;
   }
+
   header h1 {
     margin-top: 40px;
   }
+
   header button {
     font-size: 28px;
     line-height: 70px;
     margin-top: 80px;
   }
+
   header img {
     height: 80%;
     right: 0;
@@ -165,13 +188,17 @@ header button {
     left: 6%;
     text-align: left;
   }
+
   header p {
     font-size: 75px;
   }
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 38px;
     line-height: 1.7;
   }
+
   header button {
     font-size: 28px;
     line-height: 70px;
@@ -187,12 +214,16 @@ header button {
     text-align: left;
     width: 57%;
   }
+
   header p {
     font-size: 120px;
   }
-  header h1, header h2 {
+
+  header h1,
+  header h2 {
     font-size: 60px;
   }
+
   header button {
     font-size: 36px;
     line-height: 90px;
@@ -200,6 +231,7 @@ header button {
     padding: 0 35px;
     transition: .2s;
   }
+
   header img {
     height: 95%;
   }
@@ -209,6 +241,7 @@ header button {
   header button {
     transition: .2s;
   }
+
   header button:hover {
     cursor: pointer;
     color: #111;
@@ -263,9 +296,11 @@ header button {
   .features h1 {
     font-size: 40px;
   }
+
   .features h2 {
     font-size: 30px;
   }
+
   .features p {
     font-size: 22px;
   }
@@ -276,17 +311,21 @@ header button {
     margin: 4% auto 0;
     padding: 5% 2%;
   }
+
   .feature {
     float: left;
     padding: 3%;
     width: 33.333%;
   }
+
   .features h1 {
     font-size: 32px;
   }
+
   .features h2 {
     font-size: 18px;
   }
+
   .features p {
     font-size: 14px;
   }
@@ -297,17 +336,21 @@ header button {
     margin: 2% auto 0;
     padding: 5% 3%;
   }
+
   .feature {
     float: left;
     padding: 3%;
     width: 33.333%;
   }
+
   .features h1 {
     font-size: 50px;
   }
+
   .features h2 {
     font-size: 23px;
   }
+
   .features p {
     font-size: 18px;
   }
@@ -342,6 +385,10 @@ header button {
   text-align: left;
 }
 
+.about:last-of-type {
+  max-height: 320px;
+}
+
 .about h2 {
   font-size: 28px;
   border-bottom: 1px solid white;
@@ -359,6 +406,14 @@ header button {
   margin: 0 auto 20px;
 }
 
+.web img {
+  transition: transform .5s;
+}
+
+.web img:hover {
+  transform: scale(1.05);
+}
+
 .project:nth-of-type(odd) {
   background-color: #ff4f2c;
 }
@@ -374,23 +429,30 @@ header button {
     margin-bottom: 5px;
     padding: 0 0 4px 20px;
   }
-  .web, .about {
+
+  .web,
+  .about {
     width: 50%;
     float: left;
   }
+
   .web img {
     display: block;
   }
+
   .project:nth-of-type(even) .web {
     float: right;
   }
+
   .project:nth-of-type(even) h2 {
     padding: 50px 0 6px 0px;
     margin-left: 40px;
   }
+
   .project:nth-of-type(even) .about {
     padding-right: 0;
   }
+
   .project:nth-of-type(even) p {
     padding-right: 20px;
   }
@@ -400,12 +462,14 @@ header button {
   .portfolio h1 {
     font-size: 33px;
   }
+
   .about h2 {
     font-size: 26px;
     border-bottom: 1px solid white;
     margin-bottom: 12px;
     padding: 0 0 6px 20px;
   }
+
   .about p {
     font-size: 15px;
     padding-left: 20px;
@@ -416,16 +480,19 @@ header button {
   .portfolio h1 {
     font-size: 40px;
   }
+
   .about h2 {
     font-size: 30px;
     border-bottom: 1px solid white;
     margin-bottom: 12px;
     padding: 0 0 6px 40px;
   }
+
   .about p {
     font-size: 18px;
     padding-left: 40px;
   }
+
   .project {
     margin-bottom: 40px;
   }
@@ -436,16 +503,19 @@ header button {
     font-size: 43px;
     padding: 30px 0;
   }
+
   .about h2 {
     font-size: 25px;
     margin-bottom: 25px;
     padding: 20px 0 6px 20px;
     border-bottom: 1px solid white;
   }
+
   .about p {
     font-size: 15px;
     padding-left: 20px;
   }
+
   .project {
     margin-bottom: 20px;
   }
@@ -456,16 +526,19 @@ header button {
     font-size: 60px;
     padding: 30px 0;
   }
+
   .about h2 {
     font-size: 30px;
     margin-bottom: 50px;
     padding: 50px 0 6px 40px;
     border-bottom: 1px solid white;
   }
+
   .about p {
     font-size: 18px;
     padding-left: 40px;
   }
+
   .project {
     margin-bottom: 40px;
   }
@@ -516,14 +589,17 @@ header button {
     margin-left: auto;
     margin-right: auto;
   }
+
   .slogan h1 {
     margin-top: 15px;
     margin-bottom: 75px;
     font-size: 36px;
   }
+
   .slogan .text {
     font-size: 20px;
   }
+
   .slogan .author {
     margin-bottom: 10%;
     font-size: 16px;
@@ -535,6 +611,7 @@ header button {
   .slogan p {
     padding: 0 20px;
   }
+
   .slogan h1 {
     margin-top: 25px;
     margin-bottom: 85px;
@@ -542,13 +619,16 @@ header button {
     font-weight: bold;
     text-transform: uppercase;
   }
+
   .slogan .text {
     font-size: 22px;
   }
+
   .slogan .author {
     margin-top: 20px;
     font-size: 18px;
   }
+
   .bg {
     padding: 30px 20px;
   }
@@ -560,14 +640,17 @@ header button {
     margin-left: auto;
     margin: auto;
   }
+
   .slogan h1 {
     margin-top: 30px;
     margin-bottom: 95px;
     font-size: 50px;
   }
+
   .slogan .text {
     font-size: 30px;
   }
+
   .slogan .author {
     margin-top: 25px;
     font-size: 22px;
@@ -580,14 +663,17 @@ header button {
     margin-left: auto;
     margin: auto;
   }
+
   .slogan h1 {
     margin-top: 30px;
     margin-bottom: 95px;
     font-size: 50px;
   }
+
   .slogan .text {
     font-size: 30px;
   }
+
   .slogan .author {
     margin-top: 25px;
     font-size: 22px;
@@ -689,6 +775,7 @@ header button {
     margin-top: 40px;
     margin-bottom: 35px;
   }
+
   .hobby .item p {
     font-size: 30px;
     padding: 15px 0;
@@ -702,14 +789,17 @@ header button {
     opacity: 0;
     transition: 1s;
   }
+
   .hobby .item:hover p {
     opacity: 1;
     cursor: default;
   }
+
   .hobby .item {
     background-size: 100%;
     transition: 1s;
   }
+
   .hobby .item:hover {
     background-size: 120%;
   }
@@ -721,6 +811,7 @@ header button {
     margin-top: 45px;
     margin-bottom: 40px;
   }
+
   .hobby .item p {
     font-size: 55px;
   }
@@ -733,11 +824,6 @@ header button {
   padding: 30px 20px;
 }
 
-.contact .wrap {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 .contact h1 {
   font-family: 'Saira Semi Condensed', sans-serif;
   font-size: 26px;
@@ -747,54 +833,37 @@ header button {
   color: white;
 }
 
-.contact input, .contact button, .contact textarea {
-  width: 100%;
-  margin-bottom: 25px;
-  font-family: 'Saira', sans-serif;
-  font-size: 12px;
-  padding: 10px;
-}
-
-.contact input {
-  height: 36px;
-}
-
-.contact textarea {
-  height: 120px;
-}
-
-.contact button {
-  line-height: 40px;
-  font-size: 14px;
-  border: 2px solid white;
-  background-color: black;
-  color: white;
-}
-
 .contact .socials {
+  max-width: 1024px;
   padding-top: 30px;
   font-size: 0;
+  margin: 0 auto;
 }
 
 .social a {
   color: white;
+  text-decoration: none;
+}
+
+.social img {
+  transition: .3s;
+}
+
+.social img:hover {
+  transform: scale(1.1);
 }
 
 .contact .social {
   padding: 10px 0;
-  font-family: 'Saira Semi Condensed', sans-serif;
   color: white;
-}
-
-.contact .social img {
-  float: left;
+  text-align: center;
 }
 
 .contact .social span {
   line-height: 72px;
-  padding-left: 20px;
-  float: left;
+  padding-left: 10px;
   font-size: 20px;
+  display: block;
 }
 
 @media (min-width:533px) {
@@ -809,46 +878,14 @@ header button {
     font-size: 60px;
     padding: 30px 0;
   }
-  .contact input, .contact button, .contact textarea {
-    margin-bottom: 35px
-  }
-  .contact form, .contact .socials {
-    float: left;
-    width: 50%;
-    padding: 0 20px;
-  }
-  .contact .social {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-  }
-  .contact input {
-    height: 46px;
-    font-size: 24px;
-  }
-  .contact textarea {
-    height: 180px;
-    font-size: 24px;
-  }
-  .contact button {
-    line-height: 50px;
-    font-size: 22px;
-    transition: .3s;
-  }
-  .contact button:hover {
-    cursor: pointer;
-    color: black;
-    background-color: #fff;
-  }
-}
 
-/* Stopka */
-
-footer {
-  background-color: #29a6dc;
-  color: white;
-  font-family: 'Saira', sans-serif;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px 0;
+  /* Stopka */
+  footer {
+    background-color: #29a6dc;
+    color: white;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+  }
 }
