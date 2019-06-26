@@ -7,33 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext"
     rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="style.css">
-
-  <script>
-    $(document).ready(function () {
-      $("#check").click(function () {
-        $('html, body').animate({
-          scrollTop: $(".features").offset().top
-        }, 700);
-      });
-    });
-
-    $(document).ready(function () {
-      $(".scrollup").click(function () {
-        $('html, body').animate({
-          scrollTop: $("html").offset().top
-        }, 700);
-      });
-    });
-
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) $(".scrollup").fadeIn();
-        else $(".scrollup").fadeOut();
-      }
-
-    )
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery/script.js"></script>
 </head>
 
 <body>
