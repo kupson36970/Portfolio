@@ -120,6 +120,22 @@ header button {
 }
 
 @media (orientation:landscape) {
+  .scrollup {
+    background-image: url('images/up.png');
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0.4;
+    text-decoration: none;
+    transition: opacity .2s;
+  }
+
+  .scrollup:hover {
+    opacity: 1;
+  }
+
   header img {
     height: 80%;
     bottom: 0;
