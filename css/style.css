@@ -1,0 +1,111 @@
+.skills-container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.skills-heading {}
+
+/*  */
+
+.skills-section.border-bottom {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.skills-heading h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.skills-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #FF5126;
+}
+
+.skills-heading h2.skills-left:before {
+  left: 0;
+  margin-left: 0;
+}
+
+.skills-heading p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+#skills-faq {
+  padding-top: 2em;
+  position: relative;
+  background: #efefef;
+}
+
+.skills-accordion {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.skills-accordion .skills-accordion-heading {
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.skills-accordion .skills-accordion-heading h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #brand-primary;
+}
+
+.skills-accordion .skills-accordion-heading .icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.skills-accordion .skills-accordion-content {
+  border-top: 1px solid #e6e6e6;
+  display: none;
+}
+
+.skills-accordion .skills-accordion-content .inner {
+  padding: 20px;
+}
+
+.skills-accordion.active .icon {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.skills-accordion.active h3 {
+  color: #FF5126;
+}

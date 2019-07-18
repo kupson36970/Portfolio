@@ -75,12 +75,9 @@ header button {
 }
 
 @media (orientation:portrait) and (min-width:360px) {
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 24px;
   }
-
   header button {
     line-height: 40px;
     font-size: 16px;
@@ -89,12 +86,9 @@ header button {
 }
 
 @media (orientation:portrait) and (min-width:411px) {
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 26px;
   }
-
   header button {
     line-height: 50px;
     font-size: 20px;
@@ -106,12 +100,9 @@ header button {
   header p {
     font-size: 84px;
   }
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 35px;
   }
-
   header button {
     line-height: 60px;
     font-size: 26px;
@@ -131,23 +122,19 @@ header button {
     text-decoration: none;
     transition: opacity .2s;
   }
-
   .scrollup:hover {
     opacity: 1;
   }
-
   header img {
     height: 80%;
     bottom: 0;
     right: -5%;
   }
-
   header div.welcome {
     top: 12%;
     left: 5%;
     right: 45%;
   }
-
   header button {
     margin-top: 40px;
   }
@@ -157,11 +144,9 @@ header button {
   header h1 {
     font-size: 24px;
   }
-
   header h2 {
     font-size: 24px;
   }
-
   header button {
     font-size: 16px;
     line-height: 40px;
@@ -172,26 +157,20 @@ header button {
   header div.welcome {
     left: 2%;
   }
-
   header p {
     font-size: 56px;
   }
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 34px;
   }
-
   header h1 {
     margin-top: 40px;
   }
-
   header button {
     font-size: 28px;
     line-height: 70px;
     margin-top: 80px;
   }
-
   header img {
     height: 80%;
     right: 0;
@@ -204,17 +183,13 @@ header button {
     left: 6%;
     text-align: left;
   }
-
   header p {
     font-size: 75px;
   }
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 38px;
     line-height: 1.7;
   }
-
   header button {
     font-size: 28px;
     line-height: 70px;
@@ -230,16 +205,12 @@ header button {
     text-align: left;
     width: 57%;
   }
-
   header p {
     font-size: 120px;
   }
-
-  header h1,
-  header h2 {
+  header h1, header h2 {
     font-size: 60px;
   }
-
   header button {
     font-size: 36px;
     line-height: 90px;
@@ -247,7 +218,6 @@ header button {
     padding: 0 35px;
     transition: .2s;
   }
-
   header img {
     height: 95%;
   }
@@ -257,7 +227,6 @@ header button {
   header button {
     transition: .2s;
   }
-
   header button:hover {
     cursor: pointer;
     color: #111;
@@ -312,11 +281,9 @@ header button {
   .features h1 {
     font-size: 40px;
   }
-
   .features h2 {
     font-size: 30px;
   }
-
   .features p {
     font-size: 22px;
   }
@@ -327,21 +294,17 @@ header button {
     margin: 4% auto 0;
     padding: 5% 2%;
   }
-
   .feature {
     float: left;
     padding: 3%;
     width: 33.333%;
   }
-
   .features h1 {
     font-size: 32px;
   }
-
   .features h2 {
     font-size: 18px;
   }
-
   .features p {
     font-size: 14px;
   }
@@ -352,21 +315,17 @@ header button {
     margin: 2% auto 0;
     padding: 5% 3%;
   }
-
   .feature {
     float: left;
     padding: 3%;
     width: 33.333%;
   }
-
   .features h1 {
     font-size: 50px;
   }
-
   .features h2 {
     font-size: 23px;
   }
-
   .features p {
     font-size: 18px;
   }
@@ -445,30 +404,23 @@ header button {
     margin-bottom: 5px;
     padding: 0 0 4px 20px;
   }
-
-  .web,
-  .about {
+  .web, .about {
     width: 50%;
     float: left;
   }
-
   .web img {
     display: block;
   }
-
   .project:nth-of-type(even) .web {
     float: right;
   }
-
   .project:nth-of-type(even) h2 {
     padding: 50px 0 6px 0px;
     margin-left: 40px;
   }
-
   .project:nth-of-type(even) .about {
     padding-right: 0;
   }
-
   .project:nth-of-type(even) p {
     padding-right: 20px;
   }
@@ -478,14 +430,12 @@ header button {
   .portfolio h1 {
     font-size: 33px;
   }
-
   .about h2 {
     font-size: 26px;
     border-bottom: 1px solid white;
     margin-bottom: 12px;
     padding: 0 0 6px 20px;
   }
-
   .about p {
     font-size: 15px;
     padding-left: 20px;
@@ -496,19 +446,16 @@ header button {
   .portfolio h1 {
     font-size: 40px;
   }
-
   .about h2 {
     font-size: 30px;
     border-bottom: 1px solid white;
     margin-bottom: 12px;
     padding: 0 0 6px 40px;
   }
-
   .about p {
     font-size: 18px;
     padding-left: 40px;
   }
-
   .project {
     margin-bottom: 40px;
   }
@@ -519,19 +466,16 @@ header button {
     font-size: 43px;
     padding: 30px 0;
   }
-
   .about h2 {
     font-size: 25px;
     margin-bottom: 25px;
     padding: 20px 0 6px 20px;
     border-bottom: 1px solid white;
   }
-
   .about p {
     font-size: 15px;
     padding-left: 20px;
   }
-
   .project {
     margin-bottom: 20px;
   }
@@ -542,19 +486,16 @@ header button {
     font-size: 60px;
     padding: 30px 0;
   }
-
   .about h2 {
     font-size: 30px;
     margin-bottom: 50px;
     padding: 50px 0 6px 40px;
     border-bottom: 1px solid white;
   }
-
   .about p {
     font-size: 18px;
     padding-left: 40px;
   }
-
   .project {
     margin-bottom: 40px;
   }
@@ -605,17 +546,14 @@ header button {
     margin-left: auto;
     margin-right: auto;
   }
-
   .slogan h1 {
     margin-top: 15px;
     margin-bottom: 75px;
     font-size: 36px;
   }
-
   .slogan .text {
     font-size: 20px;
   }
-
   .slogan .author {
     margin-bottom: 10%;
     font-size: 16px;
@@ -627,7 +565,6 @@ header button {
   .slogan p {
     padding: 0 20px;
   }
-
   .slogan h1 {
     margin-top: 25px;
     margin-bottom: 85px;
@@ -635,16 +572,13 @@ header button {
     font-weight: bold;
     text-transform: uppercase;
   }
-
   .slogan .text {
     font-size: 22px;
   }
-
   .slogan .author {
     margin-top: 20px;
     font-size: 18px;
   }
-
   .bg {
     padding: 30px 20px;
   }
@@ -656,17 +590,14 @@ header button {
     margin-left: auto;
     margin: auto;
   }
-
   .slogan h1 {
     margin-top: 30px;
     margin-bottom: 95px;
     font-size: 50px;
   }
-
   .slogan .text {
     font-size: 30px;
   }
-
   .slogan .author {
     margin-top: 25px;
     font-size: 22px;
@@ -679,17 +610,14 @@ header button {
     margin-left: auto;
     margin: auto;
   }
-
   .slogan h1 {
     margin-top: 30px;
     margin-bottom: 95px;
     font-size: 50px;
   }
-
   .slogan .text {
     font-size: 30px;
   }
-
   .slogan .author {
     margin-top: 25px;
     font-size: 22px;
@@ -727,7 +655,117 @@ header button {
   font-size: 24px;
 }
 
-/* Sekcja 4 moje hobby */
+/* Sekcja 4 moje umiejętności */
+
+.skills {
+  position: relative;
+  background-color: #000000;
+}
+
+.skills-container {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 5%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.skills-section.border-bottom {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.skills-heading h2 {
+  font-size: 50px;
+  margin-bottom: 5%;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+}
+
+.skills-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  max-width: 1024px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #29A6DC
+}
+
+.skills-heading h2.skills-left:before {
+  left: 0;
+  margin-left: 0;
+}
+
+.skills-heading p {
+  text-transform: none;
+  margin-bottom: 5%;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.skills-accordion {
+  position: relative;
+  background: rgb(253, 253, 253);
+  margin-bottom: 20px;
+}
+
+.skills-accordion .skills-accordion-heading {
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.skills-accordion .skills-accordion-heading h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.skills-accordion .skills-accordion-heading .icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.skills-accordion .skills-accordion-content {
+  border-top: 1px solid #e6e6e6;
+  display: none;
+}
+
+.skills-accordion .skills-accordion-content .inner {
+  padding: 20px;
+  text-transform: none;
+}
+
+.skills-accordion.active .icon {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.skills-accordion.active h3 {
+  color: #29A6DC
+}
+
+/* Sekcja 5 moje hobby */
 
 .hobby {
   max-width: 1920px;
@@ -791,7 +829,6 @@ header button {
     margin-top: 40px;
     margin-bottom: 35px;
   }
-
   .hobby .item p {
     font-size: 30px;
     padding: 15px 0;
@@ -805,17 +842,14 @@ header button {
     opacity: 0;
     transition: 1s;
   }
-
   .hobby .item:hover p {
     opacity: 1;
     cursor: default;
   }
-
   .hobby .item {
     background-size: 100%;
     transition: 1s;
   }
-
   .hobby .item:hover {
     background-size: 120%;
   }
@@ -827,13 +861,12 @@ header button {
     margin-top: 45px;
     margin-bottom: 40px;
   }
-
   .hobby .item p {
     font-size: 55px;
   }
 }
 
-/* Sekcja 5 kontakt */
+/* Sekcja 6 kontakt */
 
 .contact {
   background: black;
@@ -894,7 +927,6 @@ header button {
     font-size: 60px;
     padding: 30px 0;
   }
-
   /* Stopka */
   footer {
     background-color: #29a6dc;
