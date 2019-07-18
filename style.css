@@ -112,6 +112,7 @@ header button {
 
 @media (orientation:landscape) {
   .scrollup {
+    z-index: 2;
     background-image: url('images/up.png');
     position: fixed;
     width: 50px;
